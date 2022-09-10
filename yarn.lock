@@ -2406,7 +2406,14 @@
     "backbone" "1.0.0 - 1.2.1"
     "underscore" "1.4.4 - 1.8.3"
 
-"backbone@1.0.0 - 1.2.1", "backbone@1.3.3":
+"backbone@1.0.0 - 1.2.1":
+  "integrity" "sha512-asKBzZd9YIkgzdGw1hWQ4zgPS+Rk2CTFb9iDcznb7/NjX6LJ+53aIdc/jLhTLSDy2pzKtq0PHReYi17NKBOFTQ=="
+  "resolved" "https://registry.npmjs.org/backbone/-/backbone-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "underscore" ">=1.7.0"
+
+"backbone@1.3.3":
   "integrity" "sha1-TMgOp8sWMaxHSInOQPL4vGg7KZk="
   "resolved" "https://registry.npmjs.org/backbone/-/backbone-1.3.3.tgz"
   "version" "1.3.3"
@@ -8717,9 +8724,9 @@
     "tslib" "^2.0.3"
 
 "node-fetch@^2.2.0":
-  "integrity" "sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA=="
-  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.6.tgz"
-  "version" "2.6.6"
+  "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
+  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
+  "version" "2.6.7"
   dependencies:
     "whatwg-url" "^5.0.0"
 
@@ -12287,7 +12294,7 @@
     "punycode" "^2.1.0"
 
 "tr46@~0.0.3":
-  "integrity" "sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o="
+  "integrity" "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw=="
   "resolved" "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   "version" "0.0.3"
 
@@ -12461,10 +12468,15 @@
   "resolved" "https://registry.npmjs.org/unc-path-regex/-/unc-path-regex-0.1.2.tgz"
   "version" "0.1.2"
 
-"underscore@^1.13.1", "underscore@>=1.8.3", "underscore@1.4.4 - 1.8.3":
+"underscore@^1.13.1", "underscore@>=1.8.3":
   "integrity" "sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g=="
   "resolved" "https://registry.npmjs.org/underscore/-/underscore-1.13.1.tgz"
   "version" "1.13.1"
+
+"underscore@>=1.7.0", "underscore@1.4.4 - 1.8.3":
+  "integrity" "sha512-5WsVTFcH1ut/kkhAaHf4PVgI8c7++GiVcpCGxPouI6ZVjsqPnSDf8h/8HtVqc0t4fzRXwnMK70EcZeAs3PIddg=="
+  "resolved" "https://registry.npmjs.org/underscore/-/underscore-1.8.3.tgz"
+  "version" "1.8.3"
 
 "unicode-canonical-property-names-ecmascript@^1.0.4":
   "integrity" "sha512-jDrNnXWHd4oHiTZnx/ZG7gtUTVp+gCcTTKr8L0HjlwphROEW3+Him+IpvC+xcJEFegapiMZyZe02CyuOnRmbnQ=="
@@ -13024,7 +13036,7 @@
     "defaults" "^1.0.3"
 
 "webidl-conversions@^3.0.0":
-  "integrity" "sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE="
+  "integrity" "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
   "resolved" "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
   "version" "3.0.1"
 
@@ -13214,7 +13226,7 @@
   "version" "2.3.0"
 
 "whatwg-url@^5.0.0":
-  "integrity" "sha1-lmRU6HZUYuN2RNNib2dCzotwll0="
+  "integrity" "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw=="
   "resolved" "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
   "version" "5.0.0"
   dependencies:
